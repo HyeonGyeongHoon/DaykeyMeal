@@ -1,10 +1,18 @@
-<!DOCTYPE html>
+<!--file name : index.html-->
+<!--pwd : /project_name/app/templates/main/index.html-->
 <html>
     <head>
-        <title>Github web page</title>
     </head>
     <body>
-	<h1>Hello!</h1>
-	<h3>Welcome</h3>
+		<table border="1" width="355">
+			<th style="background: white;">중식</th>
+			<tr><!-- 첫번째 줄 시작 -->
+				<td style="background: white;">{{lunchDataHtml}}</td>
+			</tr><!-- 첫번째 줄 끝 -->
+			<th style="background: white;">석식</th>
+			<tr>
+			<td style="background: white;">{{dinnerDataHtml}}</td>
+			</tr>
+    	</table>
     </body>
 </html>
